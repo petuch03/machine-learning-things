@@ -1,0 +1,13 @@
+n_in = 784
+n1 = n2 = 16
+n_out = 10
+
+trainable_parameters_1 = n_in * n1 weights + n1 biases
+trainable_parameters_2 = n1 * n2 weights + n2 biases
+trainable_parameters_3 = n2 * n_out weights + n_out biases
+
+trainable_parameters_1 = 784 * 16 + 16 = 12560
+trainable_parameters_2 = 16 * 16 + 16 = 272
+trainable_parameters_3 = 16 * 10 + 10 = 170
+
+total_trainable_parameters = trainable_parameters_1 + trainable_parameters_2 +trainable_parameters_3 = 12560+272+170 = 13002
